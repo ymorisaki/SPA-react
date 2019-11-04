@@ -10,11 +10,11 @@ const Section: FC = ({ children }) => {
 };
 
 export const SectionStyled: FC = styled.div`
-  min-height: 800px;
   margin-bottom: 30px;
   background-color: #fff;
 
   .section__inner {
+    position: relative;
     max-width: 900px;
     margin: auto;
     padding: 0 15px;

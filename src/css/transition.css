@@ -1,0 +1,21 @@
+.page-item {
+  max-width: 900px;
+}
+
+.page-item-enter {
+  opacity: 0;
+}
+.page-item-enter-active {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+.page-item-exit {
+  opacity: 1;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.page-item-exit-active {
+  opacity: 0;
+  transition: opacity 500ms;
+}
